@@ -1,0 +1,3144 @@
+[1537349247.816][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1537349247.818][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1537349247.819][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1537349247.824][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\ANKITN~1\AppData\Local\Temp\scoped_dir20760_15545\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ANKITN~1\AppData\Local\Temp\scoped_dir20760_14425" data:,
+[1537349248.416][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1537349249.438][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)",
+      "userDataDir": "C:\\Users\\ANKITN~1\\AppData\\Local\\Temp\\scoped_dir20760_14425"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1537349249.481][INFO]: COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1537349249.482][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1537349250.615][INFO]: RESPONSE MaximizeWindow
+[1537349250.619][INFO]: COMMAND Navigate {
+   "url": "https://www.rediffmail.com"
+}
+[1537349250.619][INFO]: Waiting for pending navigations...
+[1537349250.633][INFO]: Done waiting for pending navigations. Status: ok
+[1537349252.100][INFO]: Waiting for pending navigations...
+[1537349259.985][INFO]: Done waiting for pending navigations. Status: ok
+[1537349259.985][INFO]: RESPONSE Navigate
+[1537349259.992][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a"
+}
+[1537349259.992][INFO]: Waiting for pending navigations...
+[1537349259.993][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.028][INFO]: Waiting for pending navigations...
+[1537349260.029][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.029][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.48198955403548815-1"
+}, {
+   "ELEMENT": "0.48198955403548815-2"
+}, {
+   "ELEMENT": "0.48198955403548815-3"
+}, {
+   "ELEMENT": "0.48198955403548815-4"
+}, {
+   "ELEMENT": "0.48198955403548815-5"
+}, {
+   "ELEMENT": "0.48198955403548815-6"
+}, {
+   "ELEMENT": "0.48198955403548815-7"
+}, {
+   "ELEMENT": "0.48198955403548815-8"
+}, {
+   "ELEMENT": "0.48198955403548815-9"
+}, {
+   "ELEMENT": "0.48198955403548815-10"
+}, {
+   "ELEMENT": "0.48198955403548815-11"
+}, {
+   "ELEMENT": "0.48198955403548815-12"
+}, {
+   "ELEMENT": "0.48198955403548815-13"
+}, {
+   "ELEMENT": "0.48198955403548815-14"
+}, {
+   "ELEMENT": "0.48198955403548815-15"
+}, {
+   "ELEMENT": "0.48198955403548815-16"
+}, {
+   "ELEMENT": "0.48198955403548815-17"
+}, {
+   "ELEMENT": "0.48198955403548815-18"
+}, {
+   "ELEMENT": "0.48198955403548815-19"
+}, "..." ]
+[1537349260.061][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.061][INFO]: Waiting for pending navigations...
+[1537349260.062][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.092][INFO]: Waiting for pending navigations...
+[1537349260.096][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.096][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.101][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.101][INFO]: Waiting for pending navigations...
+[1537349260.104][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.124][INFO]: Waiting for pending navigations...
+[1537349260.126][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.126][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.133][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.133][INFO]: Waiting for pending navigations...
+[1537349260.134][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.152][INFO]: Waiting for pending navigations...
+[1537349260.157][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.157][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.164][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.164][INFO]: Waiting for pending navigations...
+[1537349260.169][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.180][INFO]: Waiting for pending navigations...
+[1537349260.182][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.182][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.187][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.187][INFO]: Waiting for pending navigations...
+[1537349260.189][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.204][INFO]: Waiting for pending navigations...
+[1537349260.206][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.206][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.209][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.209][INFO]: Waiting for pending navigations...
+[1537349260.212][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.225][INFO]: Waiting for pending navigations...
+[1537349260.226][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.226][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.229][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.229][INFO]: Waiting for pending navigations...
+[1537349260.230][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.237][INFO]: Waiting for pending navigations...
+[1537349260.237][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.237][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.240][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.240][INFO]: Waiting for pending navigations...
+[1537349260.240][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.247][INFO]: Waiting for pending navigations...
+[1537349260.248][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.248][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.251][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.251][INFO]: Waiting for pending navigations...
+[1537349260.252][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.258][INFO]: Waiting for pending navigations...
+[1537349260.258][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.259][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.262][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.262][INFO]: Waiting for pending navigations...
+[1537349260.263][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.269][INFO]: Waiting for pending navigations...
+[1537349260.270][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.270][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.272][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.272][INFO]: Waiting for pending navigations...
+[1537349260.273][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.281][INFO]: Waiting for pending navigations...
+[1537349260.282][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.282][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.284][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.284][INFO]: Waiting for pending navigations...
+[1537349260.285][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.291][INFO]: Waiting for pending navigations...
+[1537349260.291][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.291][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.293][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.294][INFO]: Waiting for pending navigations...
+[1537349260.295][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.300][INFO]: Waiting for pending navigations...
+[1537349260.301][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.301][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.307][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.308][INFO]: Waiting for pending navigations...
+[1537349260.308][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.314][INFO]: Waiting for pending navigations...
+[1537349260.315][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.315][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.317][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.317][INFO]: Waiting for pending navigations...
+[1537349260.317][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.323][INFO]: Waiting for pending navigations...
+[1537349260.323][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.323][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.325][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.325][INFO]: Waiting for pending navigations...
+[1537349260.326][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.332][INFO]: Waiting for pending navigations...
+[1537349260.334][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.334][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.336][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.336][INFO]: Waiting for pending navigations...
+[1537349260.337][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.342][INFO]: Waiting for pending navigations...
+[1537349260.343][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.343][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.346][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.346][INFO]: Waiting for pending navigations...
+[1537349260.347][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.352][INFO]: Waiting for pending navigations...
+[1537349260.353][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.353][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.355][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.355][INFO]: Waiting for pending navigations...
+[1537349260.355][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.361][INFO]: Waiting for pending navigations...
+[1537349260.362][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.362][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.364][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.364][INFO]: Waiting for pending navigations...
+[1537349260.365][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.371][INFO]: Waiting for pending navigations...
+[1537349260.373][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.373][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.375][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.375][INFO]: Waiting for pending navigations...
+[1537349260.375][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.381][INFO]: Waiting for pending navigations...
+[1537349260.381][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.381][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.383][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.383][INFO]: Waiting for pending navigations...
+[1537349260.384][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.390][INFO]: Waiting for pending navigations...
+[1537349260.390][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.390][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.392][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.392][INFO]: Waiting for pending navigations...
+[1537349260.393][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.399][INFO]: Waiting for pending navigations...
+[1537349260.399][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.399][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.401][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.401][INFO]: Waiting for pending navigations...
+[1537349260.402][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.408][INFO]: Waiting for pending navigations...
+[1537349260.408][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.408][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.410][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.410][INFO]: Waiting for pending navigations...
+[1537349260.411][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.417][INFO]: Waiting for pending navigations...
+[1537349260.418][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.418][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.420][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.420][INFO]: Waiting for pending navigations...
+[1537349260.420][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.426][INFO]: Waiting for pending navigations...
+[1537349260.426][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.426][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.428][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.428][INFO]: Waiting for pending navigations...
+[1537349260.429][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.434][INFO]: Waiting for pending navigations...
+[1537349260.435][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.435][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.437][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.437][INFO]: Waiting for pending navigations...
+[1537349260.437][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.443][INFO]: Waiting for pending navigations...
+[1537349260.444][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.444][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.446][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.446][INFO]: Waiting for pending navigations...
+[1537349260.447][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.452][INFO]: Waiting for pending navigations...
+[1537349260.453][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.453][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.455][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.455][INFO]: Waiting for pending navigations...
+[1537349260.455][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.461][INFO]: Waiting for pending navigations...
+[1537349260.461][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.461][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.463][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.463][INFO]: Waiting for pending navigations...
+[1537349260.464][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.469][INFO]: Waiting for pending navigations...
+[1537349260.470][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.470][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.472][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.472][INFO]: Waiting for pending navigations...
+[1537349260.473][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.479][INFO]: Waiting for pending navigations...
+[1537349260.480][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.480][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.482][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.483][INFO]: Waiting for pending navigations...
+[1537349260.483][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.489][INFO]: Waiting for pending navigations...
+[1537349260.489][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.489][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.491][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.492][INFO]: Waiting for pending navigations...
+[1537349260.492][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.498][INFO]: Waiting for pending navigations...
+[1537349260.499][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.499][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.501][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.501][INFO]: Waiting for pending navigations...
+[1537349260.501][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.507][INFO]: Waiting for pending navigations...
+[1537349260.507][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.507][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.509][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.509][INFO]: Waiting for pending navigations...
+[1537349260.510][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.516][INFO]: Waiting for pending navigations...
+[1537349260.516][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.516][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.518][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.518][INFO]: Waiting for pending navigations...
+[1537349260.519][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.525][INFO]: Waiting for pending navigations...
+[1537349260.526][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.526][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.529][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.529][INFO]: Waiting for pending navigations...
+[1537349260.530][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.535][INFO]: Waiting for pending navigations...
+[1537349260.536][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.536][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.539][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.539][INFO]: Waiting for pending navigations...
+[1537349260.539][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.545][INFO]: Waiting for pending navigations...
+[1537349260.547][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.547][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.549][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.549][INFO]: Waiting for pending navigations...
+[1537349260.550][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.556][INFO]: Waiting for pending navigations...
+[1537349260.556][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.556][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.559][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.559][INFO]: Waiting for pending navigations...
+[1537349260.560][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.565][INFO]: Waiting for pending navigations...
+[1537349260.566][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.566][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.568][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.568][INFO]: Waiting for pending navigations...
+[1537349260.569][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.575][INFO]: Waiting for pending navigations...
+[1537349260.576][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.576][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.578][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.578][INFO]: Waiting for pending navigations...
+[1537349260.579][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.585][INFO]: Waiting for pending navigations...
+[1537349260.586][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.586][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.588][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.589][INFO]: Waiting for pending navigations...
+[1537349260.589][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.596][INFO]: Waiting for pending navigations...
+[1537349260.597][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.597][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.599][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.599][INFO]: Waiting for pending navigations...
+[1537349260.600][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.606][INFO]: Waiting for pending navigations...
+[1537349260.607][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.607][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.609][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.609][INFO]: Waiting for pending navigations...
+[1537349260.610][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.616][INFO]: Waiting for pending navigations...
+[1537349260.616][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.616][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.619][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.619][INFO]: Waiting for pending navigations...
+[1537349260.620][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.625][INFO]: Waiting for pending navigations...
+[1537349260.626][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.626][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.628][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.628][INFO]: Waiting for pending navigations...
+[1537349260.630][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.636][INFO]: Waiting for pending navigations...
+[1537349260.636][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.636][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.639][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.639][INFO]: Waiting for pending navigations...
+[1537349260.640][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.646][INFO]: Waiting for pending navigations...
+[1537349260.647][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.647][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.649][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.649][INFO]: Waiting for pending navigations...
+[1537349260.650][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.656][INFO]: Waiting for pending navigations...
+[1537349260.656][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.656][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.658][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.658][INFO]: Waiting for pending navigations...
+[1537349260.659][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.665][INFO]: Waiting for pending navigations...
+[1537349260.666][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.666][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.668][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.668][INFO]: Waiting for pending navigations...
+[1537349260.668][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.673][INFO]: Waiting for pending navigations...
+[1537349260.674][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.674][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.676][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.676][INFO]: Waiting for pending navigations...
+[1537349260.677][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.683][INFO]: Waiting for pending navigations...
+[1537349260.683][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.683][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.685][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.685][INFO]: Waiting for pending navigations...
+[1537349260.686][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.692][INFO]: Waiting for pending navigations...
+[1537349260.693][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.693][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.696][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.696][INFO]: Waiting for pending navigations...
+[1537349260.697][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.703][INFO]: Waiting for pending navigations...
+[1537349260.704][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.704][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.706][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.706][INFO]: Waiting for pending navigations...
+[1537349260.707][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.714][INFO]: Waiting for pending navigations...
+[1537349260.715][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.715][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.717][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.717][INFO]: Waiting for pending navigations...
+[1537349260.718][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.724][INFO]: Waiting for pending navigations...
+[1537349260.724][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.724][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.726][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.727][INFO]: Waiting for pending navigations...
+[1537349260.728][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.733][INFO]: Waiting for pending navigations...
+[1537349260.734][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.734][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.736][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.736][INFO]: Waiting for pending navigations...
+[1537349260.737][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.742][INFO]: Waiting for pending navigations...
+[1537349260.743][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.743][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.746][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.746][INFO]: Waiting for pending navigations...
+[1537349260.747][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.753][INFO]: Waiting for pending navigations...
+[1537349260.754][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.754][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.757][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.757][INFO]: Waiting for pending navigations...
+[1537349260.758][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.764][INFO]: Waiting for pending navigations...
+[1537349260.765][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.765][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.768][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.768][INFO]: Waiting for pending navigations...
+[1537349260.769][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.775][INFO]: Waiting for pending navigations...
+[1537349260.779][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.779][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.781][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.781][INFO]: Waiting for pending navigations...
+[1537349260.782][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.788][INFO]: Waiting for pending navigations...
+[1537349260.788][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.789][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.790][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.791][INFO]: Waiting for pending navigations...
+[1537349260.791][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.797][INFO]: Waiting for pending navigations...
+[1537349260.797][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.798][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.800][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.800][INFO]: Waiting for pending navigations...
+[1537349260.800][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.806][INFO]: Waiting for pending navigations...
+[1537349260.807][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.807][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.810][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.810][INFO]: Waiting for pending navigations...
+[1537349260.811][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.816][INFO]: Waiting for pending navigations...
+[1537349260.817][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.817][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.819][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.819][INFO]: Waiting for pending navigations...
+[1537349260.820][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.825][INFO]: Waiting for pending navigations...
+[1537349260.826][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.826][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.828][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.828][INFO]: Waiting for pending navigations...
+[1537349260.829][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.835][INFO]: Waiting for pending navigations...
+[1537349260.836][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.836][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.837][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.838][INFO]: Waiting for pending navigations...
+[1537349260.838][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.844][INFO]: Waiting for pending navigations...
+[1537349260.845][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.845][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.847][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.847][INFO]: Waiting for pending navigations...
+[1537349260.848][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.853][INFO]: Waiting for pending navigations...
+[1537349260.853][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.853][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.855][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.855][INFO]: Waiting for pending navigations...
+[1537349260.856][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.865][INFO]: Waiting for pending navigations...
+[1537349260.865][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.865][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.867][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.867][INFO]: Waiting for pending navigations...
+[1537349260.868][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.874][INFO]: Waiting for pending navigations...
+[1537349260.875][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.875][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.877][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.877][INFO]: Waiting for pending navigations...
+[1537349260.878][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.883][INFO]: Waiting for pending navigations...
+[1537349260.883][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.883][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.885][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.886][INFO]: Waiting for pending navigations...
+[1537349260.886][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.891][INFO]: Waiting for pending navigations...
+[1537349260.892][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.892][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.894][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.894][INFO]: Waiting for pending navigations...
+[1537349260.895][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.900][INFO]: Waiting for pending navigations...
+[1537349260.901][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.901][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.903][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.903][INFO]: Waiting for pending navigations...
+[1537349260.903][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.910][INFO]: Waiting for pending navigations...
+[1537349260.911][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.911][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.913][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.913][INFO]: Waiting for pending navigations...
+[1537349260.914][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.919][INFO]: Waiting for pending navigations...
+[1537349260.919][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.919][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.921][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.921][INFO]: Waiting for pending navigations...
+[1537349260.922][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.927][INFO]: Waiting for pending navigations...
+[1537349260.928][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.928][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.930][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.930][INFO]: Waiting for pending navigations...
+[1537349260.930][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.936][INFO]: Waiting for pending navigations...
+[1537349260.936][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.936][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.938][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.938][INFO]: Waiting for pending navigations...
+[1537349260.939][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.944][INFO]: Waiting for pending navigations...
+[1537349260.945][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.945][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.947][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.947][INFO]: Waiting for pending navigations...
+[1537349260.947][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.953][INFO]: Waiting for pending navigations...
+[1537349260.954][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.954][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.956][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.956][INFO]: Waiting for pending navigations...
+[1537349260.957][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.964][INFO]: Waiting for pending navigations...
+[1537349260.965][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.965][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.967][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.967][INFO]: Waiting for pending navigations...
+[1537349260.968][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.973][INFO]: Waiting for pending navigations...
+[1537349260.974][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.974][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.976][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.976][INFO]: Waiting for pending navigations...
+[1537349260.976][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.982][INFO]: Waiting for pending navigations...
+[1537349260.983][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.983][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.984][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.984][INFO]: Waiting for pending navigations...
+[1537349260.985][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.990][INFO]: Waiting for pending navigations...
+[1537349260.993][INFO]: Done waiting for pending navigations. Status: ok
+[1537349260.993][INFO]: RESPONSE GetElementText "Sign in"
+[1537349260.995][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349260.995][INFO]: Waiting for pending navigations...
+[1537349260.996][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.001][INFO]: Waiting for pending navigations...
+[1537349261.002][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.002][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.004][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.004][INFO]: Waiting for pending navigations...
+[1537349261.005][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.010][INFO]: Waiting for pending navigations...
+[1537349261.011][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.011][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.013][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.013][INFO]: Waiting for pending navigations...
+[1537349261.014][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.020][INFO]: Waiting for pending navigations...
+[1537349261.020][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.021][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.022][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.022][INFO]: Waiting for pending navigations...
+[1537349261.023][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.029][INFO]: Waiting for pending navigations...
+[1537349261.029][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.029][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.031][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.031][INFO]: Waiting for pending navigations...
+[1537349261.032][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.037][INFO]: Waiting for pending navigations...
+[1537349261.037][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.037][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.039][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.039][INFO]: Waiting for pending navigations...
+[1537349261.040][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.047][INFO]: Waiting for pending navigations...
+[1537349261.049][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.049][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.051][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.051][INFO]: Waiting for pending navigations...
+[1537349261.052][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.057][INFO]: Waiting for pending navigations...
+[1537349261.058][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.058][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.060][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.060][INFO]: Waiting for pending navigations...
+[1537349261.062][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.067][INFO]: Waiting for pending navigations...
+[1537349261.068][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.068][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.070][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.070][INFO]: Waiting for pending navigations...
+[1537349261.070][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.076][INFO]: Waiting for pending navigations...
+[1537349261.076][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.076][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.078][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.078][INFO]: Waiting for pending navigations...
+[1537349261.079][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.084][INFO]: Waiting for pending navigations...
+[1537349261.085][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.085][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.087][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.087][INFO]: Waiting for pending navigations...
+[1537349261.087][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.093][INFO]: Waiting for pending navigations...
+[1537349261.093][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.094][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.095][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.095][INFO]: Waiting for pending navigations...
+[1537349261.096][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.101][INFO]: Waiting for pending navigations...
+[1537349261.102][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.102][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.104][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.104][INFO]: Waiting for pending navigations...
+[1537349261.105][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.111][INFO]: Waiting for pending navigations...
+[1537349261.112][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.112][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.114][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.114][INFO]: Waiting for pending navigations...
+[1537349261.115][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.121][INFO]: Waiting for pending navigations...
+[1537349261.121][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.121][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.123][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.123][INFO]: Waiting for pending navigations...
+[1537349261.124][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.130][INFO]: Waiting for pending navigations...
+[1537349261.130][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.130][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.132][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.132][INFO]: Waiting for pending navigations...
+[1537349261.133][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.139][INFO]: Waiting for pending navigations...
+[1537349261.139][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.139][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.141][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.142][INFO]: Waiting for pending navigations...
+[1537349261.142][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.148][INFO]: Waiting for pending navigations...
+[1537349261.149][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.149][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.150][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.151][INFO]: Waiting for pending navigations...
+[1537349261.151][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.156][INFO]: Waiting for pending navigations...
+[1537349261.157][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.157][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.159][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.159][INFO]: Waiting for pending navigations...
+[1537349261.160][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.166][INFO]: Waiting for pending navigations...
+[1537349261.167][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.167][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.169][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.169][INFO]: Waiting for pending navigations...
+[1537349261.169][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.175][INFO]: Waiting for pending navigations...
+[1537349261.176][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.176][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.178][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.178][INFO]: Waiting for pending navigations...
+[1537349261.178][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.184][INFO]: Waiting for pending navigations...
+[1537349261.185][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.185][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.186][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.186][INFO]: Waiting for pending navigations...
+[1537349261.187][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.192][INFO]: Waiting for pending navigations...
+[1537349261.193][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.193][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.195][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.195][INFO]: Waiting for pending navigations...
+[1537349261.196][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.201][INFO]: Waiting for pending navigations...
+[1537349261.201][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.201][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.203][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.203][INFO]: Waiting for pending navigations...
+[1537349261.203][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.209][INFO]: Waiting for pending navigations...
+[1537349261.209][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.209][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.211][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.211][INFO]: Waiting for pending navigations...
+[1537349261.212][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.217][INFO]: Waiting for pending navigations...
+[1537349261.218][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.218][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.219][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.219][INFO]: Waiting for pending navigations...
+[1537349261.220][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.225][INFO]: Waiting for pending navigations...
+[1537349261.226][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.226][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.227][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.227][INFO]: Waiting for pending navigations...
+[1537349261.228][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.233][INFO]: Waiting for pending navigations...
+[1537349261.234][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.234][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.235][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.236][INFO]: Waiting for pending navigations...
+[1537349261.236][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.243][INFO]: Waiting for pending navigations...
+[1537349261.244][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.244][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.246][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.246][INFO]: Waiting for pending navigations...
+[1537349261.247][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.254][INFO]: Waiting for pending navigations...
+[1537349261.255][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.255][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.257][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.257][INFO]: Waiting for pending navigations...
+[1537349261.257][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.264][INFO]: Waiting for pending navigations...
+[1537349261.264][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.264][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.266][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.266][INFO]: Waiting for pending navigations...
+[1537349261.267][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.274][INFO]: Waiting for pending navigations...
+[1537349261.275][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.275][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.277][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.277][INFO]: Waiting for pending navigations...
+[1537349261.278][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.284][INFO]: Waiting for pending navigations...
+[1537349261.285][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.285][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.287][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.287][INFO]: Waiting for pending navigations...
+[1537349261.288][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.294][INFO]: Waiting for pending navigations...
+[1537349261.295][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.295][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.297][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.297][INFO]: Waiting for pending navigations...
+[1537349261.297][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.303][INFO]: Waiting for pending navigations...
+[1537349261.304][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.304][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.306][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.306][INFO]: Waiting for pending navigations...
+[1537349261.307][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.312][INFO]: Waiting for pending navigations...
+[1537349261.313][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.313][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.315][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.315][INFO]: Waiting for pending navigations...
+[1537349261.316][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.321][INFO]: Waiting for pending navigations...
+[1537349261.322][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.322][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.324][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.324][INFO]: Waiting for pending navigations...
+[1537349261.325][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.331][INFO]: Waiting for pending navigations...
+[1537349261.332][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.332][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.334][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.334][INFO]: Waiting for pending navigations...
+[1537349261.335][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.340][INFO]: Waiting for pending navigations...
+[1537349261.341][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.341][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.344][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.344][INFO]: Waiting for pending navigations...
+[1537349261.345][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.351][INFO]: Waiting for pending navigations...
+[1537349261.352][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.352][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.354][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.354][INFO]: Waiting for pending navigations...
+[1537349261.355][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.362][INFO]: Waiting for pending navigations...
+[1537349261.362][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.362][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.365][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.365][INFO]: Waiting for pending navigations...
+[1537349261.365][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.371][INFO]: Waiting for pending navigations...
+[1537349261.372][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.372][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.374][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.374][INFO]: Waiting for pending navigations...
+[1537349261.376][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.382][INFO]: Waiting for pending navigations...
+[1537349261.382][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.382][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.384][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.385][INFO]: Waiting for pending navigations...
+[1537349261.385][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.391][INFO]: Waiting for pending navigations...
+[1537349261.392][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.392][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.394][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.394][INFO]: Waiting for pending navigations...
+[1537349261.394][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.400][INFO]: Waiting for pending navigations...
+[1537349261.401][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.401][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.403][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.403][INFO]: Waiting for pending navigations...
+[1537349261.403][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.409][INFO]: Waiting for pending navigations...
+[1537349261.410][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.410][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.412][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.412][INFO]: Waiting for pending navigations...
+[1537349261.413][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.418][INFO]: Waiting for pending navigations...
+[1537349261.419][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.419][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.422][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.422][INFO]: Waiting for pending navigations...
+[1537349261.423][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.429][INFO]: Waiting for pending navigations...
+[1537349261.430][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.430][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.431][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.431][INFO]: Waiting for pending navigations...
+[1537349261.432][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.438][INFO]: Waiting for pending navigations...
+[1537349261.438][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.438][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.440][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.440][INFO]: Waiting for pending navigations...
+[1537349261.440][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.446][INFO]: Waiting for pending navigations...
+[1537349261.447][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.447][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.448][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.448][INFO]: Waiting for pending navigations...
+[1537349261.449][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.454][INFO]: Waiting for pending navigations...
+[1537349261.455][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.455][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.457][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.457][INFO]: Waiting for pending navigations...
+[1537349261.458][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.464][INFO]: Waiting for pending navigations...
+[1537349261.464][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.464][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.466][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.466][INFO]: Waiting for pending navigations...
+[1537349261.467][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.472][INFO]: Waiting for pending navigations...
+[1537349261.473][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.473][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.475][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.475][INFO]: Waiting for pending navigations...
+[1537349261.475][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.481][INFO]: Waiting for pending navigations...
+[1537349261.482][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.482][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.484][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.484][INFO]: Waiting for pending navigations...
+[1537349261.485][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.490][INFO]: Waiting for pending navigations...
+[1537349261.491][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.491][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.493][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.493][INFO]: Waiting for pending navigations...
+[1537349261.493][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.500][INFO]: Waiting for pending navigations...
+[1537349261.500][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.500][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.502][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.502][INFO]: Waiting for pending navigations...
+[1537349261.503][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.508][INFO]: Waiting for pending navigations...
+[1537349261.509][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.509][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.511][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.511][INFO]: Waiting for pending navigations...
+[1537349261.512][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.518][INFO]: Waiting for pending navigations...
+[1537349261.518][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.518][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.520][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.520][INFO]: Waiting for pending navigations...
+[1537349261.520][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.526][INFO]: Waiting for pending navigations...
+[1537349261.527][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.527][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.530][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.530][INFO]: Waiting for pending navigations...
+[1537349261.530][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.536][INFO]: Waiting for pending navigations...
+[1537349261.537][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.537][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.539][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.539][INFO]: Waiting for pending navigations...
+[1537349261.539][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.546][INFO]: Waiting for pending navigations...
+[1537349261.546][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.546][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.548][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.548][INFO]: Waiting for pending navigations...
+[1537349261.549][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.555][INFO]: Waiting for pending navigations...
+[1537349261.555][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.555][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.557][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.557][INFO]: Waiting for pending navigations...
+[1537349261.558][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.564][INFO]: Waiting for pending navigations...
+[1537349261.565][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.565][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.567][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.567][INFO]: Waiting for pending navigations...
+[1537349261.567][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.573][INFO]: Waiting for pending navigations...
+[1537349261.573][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.573][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.575][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.575][INFO]: Waiting for pending navigations...
+[1537349261.576][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.582][INFO]: Waiting for pending navigations...
+[1537349261.583][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.583][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.584][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.584][INFO]: Waiting for pending navigations...
+[1537349261.585][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.591][INFO]: Waiting for pending navigations...
+[1537349261.591][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.591][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.593][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.593][INFO]: Waiting for pending navigations...
+[1537349261.594][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.600][INFO]: Waiting for pending navigations...
+[1537349261.601][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.601][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.602][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.603][INFO]: Waiting for pending navigations...
+[1537349261.603][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.609][INFO]: Waiting for pending navigations...
+[1537349261.610][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.610][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.612][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.612][INFO]: Waiting for pending navigations...
+[1537349261.613][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.619][INFO]: Waiting for pending navigations...
+[1537349261.620][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.620][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.622][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.622][INFO]: Waiting for pending navigations...
+[1537349261.623][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.630][INFO]: Waiting for pending navigations...
+[1537349261.630][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.631][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.632][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.632][INFO]: Waiting for pending navigations...
+[1537349261.633][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.639][INFO]: Waiting for pending navigations...
+[1537349261.640][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.640][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.641][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.641][INFO]: Waiting for pending navigations...
+[1537349261.642][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.648][INFO]: Waiting for pending navigations...
+[1537349261.649][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.649][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.650][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.650][INFO]: Waiting for pending navigations...
+[1537349261.651][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.657][INFO]: Waiting for pending navigations...
+[1537349261.658][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.658][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.660][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.660][INFO]: Waiting for pending navigations...
+[1537349261.661][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.667][INFO]: Waiting for pending navigations...
+[1537349261.668][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.668][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.670][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.670][INFO]: Waiting for pending navigations...
+[1537349261.672][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.679][INFO]: Waiting for pending navigations...
+[1537349261.679][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.680][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.681][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.681][INFO]: Waiting for pending navigations...
+[1537349261.682][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.688][INFO]: Waiting for pending navigations...
+[1537349261.689][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.689][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.691][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.691][INFO]: Waiting for pending navigations...
+[1537349261.692][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.698][INFO]: Waiting for pending navigations...
+[1537349261.699][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.699][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.700][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.700][INFO]: Waiting for pending navigations...
+[1537349261.701][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.707][INFO]: Waiting for pending navigations...
+[1537349261.708][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.708][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.710][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.710][INFO]: Waiting for pending navigations...
+[1537349261.712][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.718][INFO]: Waiting for pending navigations...
+[1537349261.718][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.718][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.720][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.720][INFO]: Waiting for pending navigations...
+[1537349261.721][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.727][INFO]: Waiting for pending navigations...
+[1537349261.731][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.731][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.733][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.733][INFO]: Waiting for pending navigations...
+[1537349261.733][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.739][INFO]: Waiting for pending navigations...
+[1537349261.740][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.740][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.742][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.742][INFO]: Waiting for pending navigations...
+[1537349261.743][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.750][INFO]: Waiting for pending navigations...
+[1537349261.751][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.751][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.753][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.753][INFO]: Waiting for pending navigations...
+[1537349261.754][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.760][INFO]: Waiting for pending navigations...
+[1537349261.762][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.762][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.764][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.764][INFO]: Waiting for pending navigations...
+[1537349261.764][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.771][INFO]: Waiting for pending navigations...
+[1537349261.772][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.772][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.774][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.774][INFO]: Waiting for pending navigations...
+[1537349261.775][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.782][INFO]: Waiting for pending navigations...
+[1537349261.782][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.783][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.785][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.785][INFO]: Waiting for pending navigations...
+[1537349261.785][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.791][INFO]: Waiting for pending navigations...
+[1537349261.792][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.792][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.795][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.795][INFO]: Waiting for pending navigations...
+[1537349261.796][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.802][INFO]: Waiting for pending navigations...
+[1537349261.803][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.803][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.806][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.806][INFO]: Waiting for pending navigations...
+[1537349261.806][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.813][INFO]: Waiting for pending navigations...
+[1537349261.815][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.815][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.817][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.817][INFO]: Waiting for pending navigations...
+[1537349261.817][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.823][INFO]: Waiting for pending navigations...
+[1537349261.824][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.824][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.827][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.827][INFO]: Waiting for pending navigations...
+[1537349261.829][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.834][INFO]: Waiting for pending navigations...
+[1537349261.835][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.835][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.837][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.837][INFO]: Waiting for pending navigations...
+[1537349261.838][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.846][INFO]: Waiting for pending navigations...
+[1537349261.847][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.847][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.848][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.849][INFO]: Waiting for pending navigations...
+[1537349261.849][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.855][INFO]: Waiting for pending navigations...
+[1537349261.855][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.855][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.857][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.857][INFO]: Waiting for pending navigations...
+[1537349261.858][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.864][INFO]: Waiting for pending navigations...
+[1537349261.864][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.864][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.866][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.866][INFO]: Waiting for pending navigations...
+[1537349261.867][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.873][INFO]: Waiting for pending navigations...
+[1537349261.873][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.873][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.875][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.875][INFO]: Waiting for pending navigations...
+[1537349261.877][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.887][INFO]: Waiting for pending navigations...
+[1537349261.887][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.887][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.889][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.889][INFO]: Waiting for pending navigations...
+[1537349261.890][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.897][INFO]: Waiting for pending navigations...
+[1537349261.898][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.898][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.900][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.900][INFO]: Waiting for pending navigations...
+[1537349261.900][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.907][INFO]: Waiting for pending navigations...
+[1537349261.908][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.908][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.909][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.910][INFO]: Waiting for pending navigations...
+[1537349261.911][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.916][INFO]: Waiting for pending navigations...
+[1537349261.917][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.917][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.918][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.918][INFO]: Waiting for pending navigations...
+[1537349261.919][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.924][INFO]: Waiting for pending navigations...
+[1537349261.925][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.925][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.927][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.927][INFO]: Waiting for pending navigations...
+[1537349261.929][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.934][INFO]: Waiting for pending navigations...
+[1537349261.935][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.935][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.936][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.936][INFO]: Waiting for pending navigations...
+[1537349261.937][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.942][INFO]: Waiting for pending navigations...
+[1537349261.943][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.943][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.945][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.945][INFO]: Waiting for pending navigations...
+[1537349261.946][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.951][INFO]: Waiting for pending navigations...
+[1537349261.951][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.951][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.953][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.953][INFO]: Waiting for pending navigations...
+[1537349261.954][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.959][INFO]: Waiting for pending navigations...
+[1537349261.960][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.960][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.962][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.963][INFO]: Waiting for pending navigations...
+[1537349261.963][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.969][INFO]: Waiting for pending navigations...
+[1537349261.970][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.970][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.971][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.971][INFO]: Waiting for pending navigations...
+[1537349261.972][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.979][INFO]: Waiting for pending navigations...
+[1537349261.979][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.979][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.981][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.981][INFO]: Waiting for pending navigations...
+[1537349261.982][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.988][INFO]: Waiting for pending navigations...
+[1537349261.989][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.989][INFO]: RESPONSE GetElementText "Sign in"
+[1537349261.990][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349261.990][INFO]: Waiting for pending navigations...
+[1537349261.991][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.997][INFO]: Waiting for pending navigations...
+[1537349261.998][INFO]: Done waiting for pending navigations. Status: ok
+[1537349261.998][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.000][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.000][INFO]: Waiting for pending navigations...
+[1537349262.001][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.007][INFO]: Waiting for pending navigations...
+[1537349262.007][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.007][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.009][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.009][INFO]: Waiting for pending navigations...
+[1537349262.010][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.016][INFO]: Waiting for pending navigations...
+[1537349262.017][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.017][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.019][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.019][INFO]: Waiting for pending navigations...
+[1537349262.020][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.025][INFO]: Waiting for pending navigations...
+[1537349262.026][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.026][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.028][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.028][INFO]: Waiting for pending navigations...
+[1537349262.029][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.035][INFO]: Waiting for pending navigations...
+[1537349262.035][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.035][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.037][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.037][INFO]: Waiting for pending navigations...
+[1537349262.038][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.044][INFO]: Waiting for pending navigations...
+[1537349262.045][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.045][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.047][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.047][INFO]: Waiting for pending navigations...
+[1537349262.048][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.054][INFO]: Waiting for pending navigations...
+[1537349262.054][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.054][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.056][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.056][INFO]: Waiting for pending navigations...
+[1537349262.057][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.063][INFO]: Waiting for pending navigations...
+[1537349262.063][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.063][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.065][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.065][INFO]: Waiting for pending navigations...
+[1537349262.066][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.071][INFO]: Waiting for pending navigations...
+[1537349262.072][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.072][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.074][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.074][INFO]: Waiting for pending navigations...
+[1537349262.074][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.081][INFO]: Waiting for pending navigations...
+[1537349262.081][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.081][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.083][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.083][INFO]: Waiting for pending navigations...
+[1537349262.084][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.090][INFO]: Waiting for pending navigations...
+[1537349262.090][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.090][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.092][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.092][INFO]: Waiting for pending navigations...
+[1537349262.093][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.100][INFO]: Waiting for pending navigations...
+[1537349262.100][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.100][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.102][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.102][INFO]: Waiting for pending navigations...
+[1537349262.103][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.108][INFO]: Waiting for pending navigations...
+[1537349262.109][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.109][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.112][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.112][INFO]: Waiting for pending navigations...
+[1537349262.113][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.119][INFO]: Waiting for pending navigations...
+[1537349262.119][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.119][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.121][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.121][INFO]: Waiting for pending navigations...
+[1537349262.122][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.129][INFO]: Waiting for pending navigations...
+[1537349262.130][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.130][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.132][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.132][INFO]: Waiting for pending navigations...
+[1537349262.133][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.139][INFO]: Waiting for pending navigations...
+[1537349262.140][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.140][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.142][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.142][INFO]: Waiting for pending navigations...
+[1537349262.143][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.149][INFO]: Waiting for pending navigations...
+[1537349262.150][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.150][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.152][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.152][INFO]: Waiting for pending navigations...
+[1537349262.153][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.159][INFO]: Waiting for pending navigations...
+[1537349262.159][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.159][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.161][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.161][INFO]: Waiting for pending navigations...
+[1537349262.162][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.167][INFO]: Waiting for pending navigations...
+[1537349262.168][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.168][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.169][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.169][INFO]: Waiting for pending navigations...
+[1537349262.170][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.175][INFO]: Waiting for pending navigations...
+[1537349262.176][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.176][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.178][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.178][INFO]: Waiting for pending navigations...
+[1537349262.179][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.185][INFO]: Waiting for pending navigations...
+[1537349262.186][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.186][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.187][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.187][INFO]: Waiting for pending navigations...
+[1537349262.188][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.193][INFO]: Waiting for pending navigations...
+[1537349262.194][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.194][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.196][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.196][INFO]: Waiting for pending navigations...
+[1537349262.197][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.202][INFO]: Waiting for pending navigations...
+[1537349262.203][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.203][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.204][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.205][INFO]: Waiting for pending navigations...
+[1537349262.205][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.211][INFO]: Waiting for pending navigations...
+[1537349262.212][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.212][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.214][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.214][INFO]: Waiting for pending navigations...
+[1537349262.215][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.221][INFO]: Waiting for pending navigations...
+[1537349262.222][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.222][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.223][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.223][INFO]: Waiting for pending navigations...
+[1537349262.224][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.230][INFO]: Waiting for pending navigations...
+[1537349262.230][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.230][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.232][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.232][INFO]: Waiting for pending navigations...
+[1537349262.234][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.239][INFO]: Waiting for pending navigations...
+[1537349262.240][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.240][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.242][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.242][INFO]: Waiting for pending navigations...
+[1537349262.242][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.248][INFO]: Waiting for pending navigations...
+[1537349262.249][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.249][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.250][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.250][INFO]: Waiting for pending navigations...
+[1537349262.251][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.257][INFO]: Waiting for pending navigations...
+[1537349262.257][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.257][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.259][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.259][INFO]: Waiting for pending navigations...
+[1537349262.260][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.266][INFO]: Waiting for pending navigations...
+[1537349262.266][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.266][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.268][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.268][INFO]: Waiting for pending navigations...
+[1537349262.269][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.274][INFO]: Waiting for pending navigations...
+[1537349262.275][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.275][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.277][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.277][INFO]: Waiting for pending navigations...
+[1537349262.278][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.283][INFO]: Waiting for pending navigations...
+[1537349262.284][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.284][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.285][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.285][INFO]: Waiting for pending navigations...
+[1537349262.286][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.291][INFO]: Waiting for pending navigations...
+[1537349262.292][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.292][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.294][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.294][INFO]: Waiting for pending navigations...
+[1537349262.294][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.300][INFO]: Waiting for pending navigations...
+[1537349262.300][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.300][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.302][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.302][INFO]: Waiting for pending navigations...
+[1537349262.303][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.308][INFO]: Waiting for pending navigations...
+[1537349262.309][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.309][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.311][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.311][INFO]: Waiting for pending navigations...
+[1537349262.312][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.318][INFO]: Waiting for pending navigations...
+[1537349262.318][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.318][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.320][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.320][INFO]: Waiting for pending navigations...
+[1537349262.321][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.327][INFO]: Waiting for pending navigations...
+[1537349262.328][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.328][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.330][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.330][INFO]: Waiting for pending navigations...
+[1537349262.332][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.338][INFO]: Waiting for pending navigations...
+[1537349262.339][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.339][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.341][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.341][INFO]: Waiting for pending navigations...
+[1537349262.341][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.348][INFO]: Waiting for pending navigations...
+[1537349262.348][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.348][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.350][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.350][INFO]: Waiting for pending navigations...
+[1537349262.351][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.358][INFO]: Waiting for pending navigations...
+[1537349262.359][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.359][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.361][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.361][INFO]: Waiting for pending navigations...
+[1537349262.362][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.370][INFO]: Waiting for pending navigations...
+[1537349262.371][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.371][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.373][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.373][INFO]: Waiting for pending navigations...
+[1537349262.374][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.380][INFO]: Waiting for pending navigations...
+[1537349262.381][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.381][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.382][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.382][INFO]: Waiting for pending navigations...
+[1537349262.383][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.388][INFO]: Waiting for pending navigations...
+[1537349262.389][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.389][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.391][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.391][INFO]: Waiting for pending navigations...
+[1537349262.392][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.397][INFO]: Waiting for pending navigations...
+[1537349262.398][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.398][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.400][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.400][INFO]: Waiting for pending navigations...
+[1537349262.400][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.406][INFO]: Waiting for pending navigations...
+[1537349262.406][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.406][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.408][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.408][INFO]: Waiting for pending navigations...
+[1537349262.408][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.414][INFO]: Waiting for pending navigations...
+[1537349262.415][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.415][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.416][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.416][INFO]: Waiting for pending navigations...
+[1537349262.417][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.423][INFO]: Waiting for pending navigations...
+[1537349262.423][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.423][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.426][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.426][INFO]: Waiting for pending navigations...
+[1537349262.427][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.432][INFO]: Waiting for pending navigations...
+[1537349262.433][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.433][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.435][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.435][INFO]: Waiting for pending navigations...
+[1537349262.436][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.442][INFO]: Waiting for pending navigations...
+[1537349262.443][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.444][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.445][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.445][INFO]: Waiting for pending navigations...
+[1537349262.446][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.452][INFO]: Waiting for pending navigations...
+[1537349262.453][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.453][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.455][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.455][INFO]: Waiting for pending navigations...
+[1537349262.456][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.462][INFO]: Waiting for pending navigations...
+[1537349262.463][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.463][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.465][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.465][INFO]: Waiting for pending navigations...
+[1537349262.466][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.472][INFO]: Waiting for pending navigations...
+[1537349262.472][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.472][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.474][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.474][INFO]: Waiting for pending navigations...
+[1537349262.475][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.482][INFO]: Waiting for pending navigations...
+[1537349262.482][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.482][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.484][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.484][INFO]: Waiting for pending navigations...
+[1537349262.485][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.491][INFO]: Waiting for pending navigations...
+[1537349262.491][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.491][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.493][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.494][INFO]: Waiting for pending navigations...
+[1537349262.495][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.501][INFO]: Waiting for pending navigations...
+[1537349262.501][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.501][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.503][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.503][INFO]: Waiting for pending navigations...
+[1537349262.504][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.510][INFO]: Waiting for pending navigations...
+[1537349262.512][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.512][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.514][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.514][INFO]: Waiting for pending navigations...
+[1537349262.515][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.521][INFO]: Waiting for pending navigations...
+[1537349262.522][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.522][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.524][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.524][INFO]: Waiting for pending navigations...
+[1537349262.524][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.533][INFO]: Waiting for pending navigations...
+[1537349262.534][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.534][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.536][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.536][INFO]: Waiting for pending navigations...
+[1537349262.538][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.544][INFO]: Waiting for pending navigations...
+[1537349262.546][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.546][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.548][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.548][INFO]: Waiting for pending navigations...
+[1537349262.549][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.555][INFO]: Waiting for pending navigations...
+[1537349262.556][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.556][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.558][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.558][INFO]: Waiting for pending navigations...
+[1537349262.559][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.565][INFO]: Waiting for pending navigations...
+[1537349262.566][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.566][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.568][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.568][INFO]: Waiting for pending navigations...
+[1537349262.569][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.575][INFO]: Waiting for pending navigations...
+[1537349262.576][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.576][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.578][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.578][INFO]: Waiting for pending navigations...
+[1537349262.579][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.585][INFO]: Waiting for pending navigations...
+[1537349262.586][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.586][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.588][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.588][INFO]: Waiting for pending navigations...
+[1537349262.589][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.595][INFO]: Waiting for pending navigations...
+[1537349262.596][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.596][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.598][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.598][INFO]: Waiting for pending navigations...
+[1537349262.599][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.604][INFO]: Waiting for pending navigations...
+[1537349262.605][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.605][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.607][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.607][INFO]: Waiting for pending navigations...
+[1537349262.608][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.614][INFO]: Waiting for pending navigations...
+[1537349262.614][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.614][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.616][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.616][INFO]: Waiting for pending navigations...
+[1537349262.617][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.623][INFO]: Waiting for pending navigations...
+[1537349262.624][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.624][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.625][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.625][INFO]: Waiting for pending navigations...
+[1537349262.626][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.632][INFO]: Waiting for pending navigations...
+[1537349262.633][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.633][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.635][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.635][INFO]: Waiting for pending navigations...
+[1537349262.636][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.641][INFO]: Waiting for pending navigations...
+[1537349262.642][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.642][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.644][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.644][INFO]: Waiting for pending navigations...
+[1537349262.645][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.651][INFO]: Waiting for pending navigations...
+[1537349262.652][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.652][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.654][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.654][INFO]: Waiting for pending navigations...
+[1537349262.655][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.661][INFO]: Waiting for pending navigations...
+[1537349262.662][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.662][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.664][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.664][INFO]: Waiting for pending navigations...
+[1537349262.664][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.670][INFO]: Waiting for pending navigations...
+[1537349262.671][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.671][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.673][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.673][INFO]: Waiting for pending navigations...
+[1537349262.673][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.679][INFO]: Waiting for pending navigations...
+[1537349262.680][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.680][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.682][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.682][INFO]: Waiting for pending navigations...
+[1537349262.683][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.688][INFO]: Waiting for pending navigations...
+[1537349262.688][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.689][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.690][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.690][INFO]: Waiting for pending navigations...
+[1537349262.691][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.698][INFO]: Waiting for pending navigations...
+[1537349262.698][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.698][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.700][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.700][INFO]: Waiting for pending navigations...
+[1537349262.701][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.706][INFO]: Waiting for pending navigations...
+[1537349262.707][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.707][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.709][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.709][INFO]: Waiting for pending navigations...
+[1537349262.710][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.716][INFO]: Waiting for pending navigations...
+[1537349262.717][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.717][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.719][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.719][INFO]: Waiting for pending navigations...
+[1537349262.720][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.725][INFO]: Waiting for pending navigations...
+[1537349262.726][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.726][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.728][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.728][INFO]: Waiting for pending navigations...
+[1537349262.729][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.734][INFO]: Waiting for pending navigations...
+[1537349262.735][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.735][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.737][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.737][INFO]: Waiting for pending navigations...
+[1537349262.738][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.744][INFO]: Waiting for pending navigations...
+[1537349262.745][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.745][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.747][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.747][INFO]: Waiting for pending navigations...
+[1537349262.748][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.754][INFO]: Waiting for pending navigations...
+[1537349262.755][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.755][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.756][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.756][INFO]: Waiting for pending navigations...
+[1537349262.757][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.763][INFO]: Waiting for pending navigations...
+[1537349262.765][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.765][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.767][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.767][INFO]: Waiting for pending navigations...
+[1537349262.768][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.774][INFO]: Waiting for pending navigations...
+[1537349262.775][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.775][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.777][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.777][INFO]: Waiting for pending navigations...
+[1537349262.781][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.786][INFO]: Waiting for pending navigations...
+[1537349262.787][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.787][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.788][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.789][INFO]: Waiting for pending navigations...
+[1537349262.789][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.795][INFO]: Waiting for pending navigations...
+[1537349262.796][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.796][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.798][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.798][INFO]: Waiting for pending navigations...
+[1537349262.799][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.804][INFO]: Waiting for pending navigations...
+[1537349262.805][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.805][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.807][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.807][INFO]: Waiting for pending navigations...
+[1537349262.808][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.815][INFO]: Waiting for pending navigations...
+[1537349262.816][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.816][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.817][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.817][INFO]: Waiting for pending navigations...
+[1537349262.818][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.824][INFO]: Waiting for pending navigations...
+[1537349262.824][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.825][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.826][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.826][INFO]: Waiting for pending navigations...
+[1537349262.829][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.835][INFO]: Waiting for pending navigations...
+[1537349262.836][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.836][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.838][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.838][INFO]: Waiting for pending navigations...
+[1537349262.839][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.846][INFO]: Waiting for pending navigations...
+[1537349262.851][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.851][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.853][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.853][INFO]: Waiting for pending navigations...
+[1537349262.854][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.861][INFO]: Waiting for pending navigations...
+[1537349262.862][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.862][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.864][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.864][INFO]: Waiting for pending navigations...
+[1537349262.864][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.870][INFO]: Waiting for pending navigations...
+[1537349262.871][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.871][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.873][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.873][INFO]: Waiting for pending navigations...
+[1537349262.874][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.880][INFO]: Waiting for pending navigations...
+[1537349262.885][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.885][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.887][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.887][INFO]: Waiting for pending navigations...
+[1537349262.888][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.894][INFO]: Waiting for pending navigations...
+[1537349262.895][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.895][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.897][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.897][INFO]: Waiting for pending navigations...
+[1537349262.898][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.903][INFO]: Waiting for pending navigations...
+[1537349262.904][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.904][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.906][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.906][INFO]: Waiting for pending navigations...
+[1537349262.906][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.911][INFO]: Waiting for pending navigations...
+[1537349262.912][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.912][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.914][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.914][INFO]: Waiting for pending navigations...
+[1537349262.914][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.919][INFO]: Waiting for pending navigations...
+[1537349262.920][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.920][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.922][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.922][INFO]: Waiting for pending navigations...
+[1537349262.923][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.929][INFO]: Waiting for pending navigations...
+[1537349262.930][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.930][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.931][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.931][INFO]: Waiting for pending navigations...
+[1537349262.932][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.938][INFO]: Waiting for pending navigations...
+[1537349262.938][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.938][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.940][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.940][INFO]: Waiting for pending navigations...
+[1537349262.941][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.947][INFO]: Waiting for pending navigations...
+[1537349262.947][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.948][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.949][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.949][INFO]: Waiting for pending navigations...
+[1537349262.950][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.956][INFO]: Waiting for pending navigations...
+[1537349262.957][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.957][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.958][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.958][INFO]: Waiting for pending navigations...
+[1537349262.959][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.965][INFO]: Waiting for pending navigations...
+[1537349262.965][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.966][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.967][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.967][INFO]: Waiting for pending navigations...
+[1537349262.968][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.973][INFO]: Waiting for pending navigations...
+[1537349262.974][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.974][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.976][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.976][INFO]: Waiting for pending navigations...
+[1537349262.977][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.983][INFO]: Waiting for pending navigations...
+[1537349262.984][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.984][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.985][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.985][INFO]: Waiting for pending navigations...
+[1537349262.986][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.992][INFO]: Waiting for pending navigations...
+[1537349262.993][INFO]: Done waiting for pending navigations. Status: ok
+[1537349262.993][INFO]: RESPONSE GetElementText "Sign in"
+[1537349262.995][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349262.995][INFO]: Waiting for pending navigations...
+[1537349262.996][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.005][INFO]: Waiting for pending navigations...
+[1537349263.005][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.005][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.007][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.007][INFO]: Waiting for pending navigations...
+[1537349263.008][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.014][INFO]: Waiting for pending navigations...
+[1537349263.014][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.014][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.016][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.016][INFO]: Waiting for pending navigations...
+[1537349263.017][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.022][INFO]: Waiting for pending navigations...
+[1537349263.022][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.022][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.024][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.024][INFO]: Waiting for pending navigations...
+[1537349263.025][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.030][INFO]: Waiting for pending navigations...
+[1537349263.031][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.031][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.033][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.033][INFO]: Waiting for pending navigations...
+[1537349263.034][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.039][INFO]: Waiting for pending navigations...
+[1537349263.040][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.040][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.042][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.042][INFO]: Waiting for pending navigations...
+[1537349263.042][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.048][INFO]: Waiting for pending navigations...
+[1537349263.049][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.049][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.051][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.051][INFO]: Waiting for pending navigations...
+[1537349263.052][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.059][INFO]: Waiting for pending navigations...
+[1537349263.060][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.060][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.062][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.062][INFO]: Waiting for pending navigations...
+[1537349263.063][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.069][INFO]: Waiting for pending navigations...
+[1537349263.070][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.070][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.071][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.072][INFO]: Waiting for pending navigations...
+[1537349263.072][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.078][INFO]: Waiting for pending navigations...
+[1537349263.079][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.079][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.080][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.080][INFO]: Waiting for pending navigations...
+[1537349263.081][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.088][INFO]: Waiting for pending navigations...
+[1537349263.088][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.088][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.090][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.090][INFO]: Waiting for pending navigations...
+[1537349263.091][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.100][INFO]: Waiting for pending navigations...
+[1537349263.100][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.101][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.102][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.102][INFO]: Waiting for pending navigations...
+[1537349263.103][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.109][INFO]: Waiting for pending navigations...
+[1537349263.113][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.113][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.115][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.115][INFO]: Waiting for pending navigations...
+[1537349263.116][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.123][INFO]: Waiting for pending navigations...
+[1537349263.124][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.124][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.128][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.128][INFO]: Waiting for pending navigations...
+[1537349263.129][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.135][INFO]: Waiting for pending navigations...
+[1537349263.156][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.156][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.158][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.158][INFO]: Waiting for pending navigations...
+[1537349263.159][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.167][INFO]: Waiting for pending navigations...
+[1537349263.168][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.168][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.170][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.170][INFO]: Waiting for pending navigations...
+[1537349263.171][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.178][INFO]: Waiting for pending navigations...
+[1537349263.181][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.181][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.182][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.182][INFO]: Waiting for pending navigations...
+[1537349263.183][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.189][INFO]: Waiting for pending navigations...
+[1537349263.189][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.189][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.191][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.191][INFO]: Waiting for pending navigations...
+[1537349263.192][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.198][INFO]: Waiting for pending navigations...
+[1537349263.199][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.199][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.201][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.201][INFO]: Waiting for pending navigations...
+[1537349263.201][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.207][INFO]: Waiting for pending navigations...
+[1537349263.207][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.207][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.209][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.209][INFO]: Waiting for pending navigations...
+[1537349263.212][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.217][INFO]: Waiting for pending navigations...
+[1537349263.218][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.218][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.219][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.219][INFO]: Waiting for pending navigations...
+[1537349263.220][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.226][INFO]: Waiting for pending navigations...
+[1537349263.227][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.227][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.230][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.230][INFO]: Waiting for pending navigations...
+[1537349263.231][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.236][INFO]: Waiting for pending navigations...
+[1537349263.237][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.237][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.239][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.239][INFO]: Waiting for pending navigations...
+[1537349263.239][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.246][INFO]: Waiting for pending navigations...
+[1537349263.246][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.246][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.248][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.248][INFO]: Waiting for pending navigations...
+[1537349263.249][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.255][INFO]: Waiting for pending navigations...
+[1537349263.256][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.256][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.258][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.258][INFO]: Waiting for pending navigations...
+[1537349263.259][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.265][INFO]: Waiting for pending navigations...
+[1537349263.265][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.265][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.267][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.267][INFO]: Waiting for pending navigations...
+[1537349263.268][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.273][INFO]: Waiting for pending navigations...
+[1537349263.274][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.274][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.275][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.275][INFO]: Waiting for pending navigations...
+[1537349263.276][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.282][INFO]: Waiting for pending navigations...
+[1537349263.283][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.283][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.285][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.285][INFO]: Waiting for pending navigations...
+[1537349263.286][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.291][INFO]: Waiting for pending navigations...
+[1537349263.291][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.291][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.293][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.293][INFO]: Waiting for pending navigations...
+[1537349263.294][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.299][INFO]: Waiting for pending navigations...
+[1537349263.300][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.300][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.302][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.302][INFO]: Waiting for pending navigations...
+[1537349263.303][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.308][INFO]: Waiting for pending navigations...
+[1537349263.309][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.309][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.311][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.311][INFO]: Waiting for pending navigations...
+[1537349263.312][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.318][INFO]: Waiting for pending navigations...
+[1537349263.319][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.319][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.320][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.321][INFO]: Waiting for pending navigations...
+[1537349263.321][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.327][INFO]: Waiting for pending navigations...
+[1537349263.328][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.328][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.330][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.330][INFO]: Waiting for pending navigations...
+[1537349263.330][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.336][INFO]: Waiting for pending navigations...
+[1537349263.337][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.337][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.338][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.338][INFO]: Waiting for pending navigations...
+[1537349263.339][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.345][INFO]: Waiting for pending navigations...
+[1537349263.346][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.346][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.347][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.347][INFO]: Waiting for pending navigations...
+[1537349263.348][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.353][INFO]: Waiting for pending navigations...
+[1537349263.354][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.354][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.356][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.356][INFO]: Waiting for pending navigations...
+[1537349263.356][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.363][INFO]: Waiting for pending navigations...
+[1537349263.363][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.363][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.365][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.365][INFO]: Waiting for pending navigations...
+[1537349263.366][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.371][INFO]: Waiting for pending navigations...
+[1537349263.372][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.372][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.373][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.374][INFO]: Waiting for pending navigations...
+[1537349263.374][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.380][INFO]: Waiting for pending navigations...
+[1537349263.381][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.381][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.382][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.382][INFO]: Waiting for pending navigations...
+[1537349263.383][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.389][INFO]: Waiting for pending navigations...
+[1537349263.390][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.390][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.391][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.391][INFO]: Waiting for pending navigations...
+[1537349263.392][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.398][INFO]: Waiting for pending navigations...
+[1537349263.398][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.398][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.399][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.400][INFO]: Waiting for pending navigations...
+[1537349263.400][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.405][INFO]: Waiting for pending navigations...
+[1537349263.406][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.406][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.407][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.407][INFO]: Waiting for pending navigations...
+[1537349263.408][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.413][INFO]: Waiting for pending navigations...
+[1537349263.413][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.413][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.415][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.415][INFO]: Waiting for pending navigations...
+[1537349263.416][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.421][INFO]: Waiting for pending navigations...
+[1537349263.422][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.422][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.423][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.424][INFO]: Waiting for pending navigations...
+[1537349263.424][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.430][INFO]: Waiting for pending navigations...
+[1537349263.431][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.431][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.432][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.432][INFO]: Waiting for pending navigations...
+[1537349263.433][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.438][INFO]: Waiting for pending navigations...
+[1537349263.439][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.439][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.441][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.441][INFO]: Waiting for pending navigations...
+[1537349263.441][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.447][INFO]: Waiting for pending navigations...
+[1537349263.448][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.448][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.450][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.450][INFO]: Waiting for pending navigations...
+[1537349263.450][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.456][INFO]: Waiting for pending navigations...
+[1537349263.457][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.457][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.458][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.458][INFO]: Waiting for pending navigations...
+[1537349263.459][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.464][INFO]: Waiting for pending navigations...
+[1537349263.465][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.465][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.467][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.467][INFO]: Waiting for pending navigations...
+[1537349263.467][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.473][INFO]: Waiting for pending navigations...
+[1537349263.473][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.473][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.475][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.475][INFO]: Waiting for pending navigations...
+[1537349263.476][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.482][INFO]: Waiting for pending navigations...
+[1537349263.483][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.483][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.484][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.484][INFO]: Waiting for pending navigations...
+[1537349263.485][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.490][INFO]: Waiting for pending navigations...
+[1537349263.491][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.491][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.492][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.492][INFO]: Waiting for pending navigations...
+[1537349263.493][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.499][INFO]: Waiting for pending navigations...
+[1537349263.500][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.500][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.501][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.501][INFO]: Waiting for pending navigations...
+[1537349263.502][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.507][INFO]: Waiting for pending navigations...
+[1537349263.507][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.507][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.509][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.509][INFO]: Waiting for pending navigations...
+[1537349263.509][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.515][INFO]: Waiting for pending navigations...
+[1537349263.516][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.516][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.517][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.517][INFO]: Waiting for pending navigations...
+[1537349263.518][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.523][INFO]: Waiting for pending navigations...
+[1537349263.524][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.524][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.525][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.525][INFO]: Waiting for pending navigations...
+[1537349263.526][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.532][INFO]: Waiting for pending navigations...
+[1537349263.533][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.533][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.534][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.534][INFO]: Waiting for pending navigations...
+[1537349263.535][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.541][INFO]: Waiting for pending navigations...
+[1537349263.542][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.542][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.543][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.543][INFO]: Waiting for pending navigations...
+[1537349263.544][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.550][INFO]: Waiting for pending navigations...
+[1537349263.551][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.551][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.552][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.552][INFO]: Waiting for pending navigations...
+[1537349263.553][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.558][INFO]: Waiting for pending navigations...
+[1537349263.559][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.559][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.561][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.561][INFO]: Waiting for pending navigations...
+[1537349263.561][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.566][INFO]: Waiting for pending navigations...
+[1537349263.567][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.567][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.568][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.568][INFO]: Waiting for pending navigations...
+[1537349263.569][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.574][INFO]: Waiting for pending navigations...
+[1537349263.575][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.575][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.576][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.576][INFO]: Waiting for pending navigations...
+[1537349263.577][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.582][INFO]: Waiting for pending navigations...
+[1537349263.583][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.583][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.584][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.584][INFO]: Waiting for pending navigations...
+[1537349263.586][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.591][INFO]: Waiting for pending navigations...
+[1537349263.592][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.592][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.594][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.594][INFO]: Waiting for pending navigations...
+[1537349263.595][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.600][INFO]: Waiting for pending navigations...
+[1537349263.600][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.600][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.602][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.602][INFO]: Waiting for pending navigations...
+[1537349263.603][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.608][INFO]: Waiting for pending navigations...
+[1537349263.608][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.608][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.610][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.610][INFO]: Waiting for pending navigations...
+[1537349263.611][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.616][INFO]: Waiting for pending navigations...
+[1537349263.617][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.617][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.618][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.618][INFO]: Waiting for pending navigations...
+[1537349263.619][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.624][INFO]: Waiting for pending navigations...
+[1537349263.625][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.625][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.627][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.627][INFO]: Waiting for pending navigations...
+[1537349263.628][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.633][INFO]: Waiting for pending navigations...
+[1537349263.634][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.634][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.636][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.636][INFO]: Waiting for pending navigations...
+[1537349263.636][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.642][INFO]: Waiting for pending navigations...
+[1537349263.644][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.644][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.646][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.646][INFO]: Waiting for pending navigations...
+[1537349263.647][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.652][INFO]: Waiting for pending navigations...
+[1537349263.652][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.652][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.654][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.654][INFO]: Waiting for pending navigations...
+[1537349263.655][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.660][INFO]: Waiting for pending navigations...
+[1537349263.661][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.661][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.662][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.662][INFO]: Waiting for pending navigations...
+[1537349263.663][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.668][INFO]: Waiting for pending navigations...
+[1537349263.669][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.669][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.670][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.670][INFO]: Waiting for pending navigations...
+[1537349263.671][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.676][INFO]: Waiting for pending navigations...
+[1537349263.677][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.677][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.679][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.679][INFO]: Waiting for pending navigations...
+[1537349263.679][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.684][INFO]: Waiting for pending navigations...
+[1537349263.685][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.685][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.687][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.687][INFO]: Waiting for pending navigations...
+[1537349263.687][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.693][INFO]: Waiting for pending navigations...
+[1537349263.694][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.694][INFO]: RESPONSE GetElementText "Sign in"
+[1537349263.695][INFO]: COMMAND GetElementText {
+   "id": "0.48198955403548815-1"
+}
+[1537349263.695][INFO]: Waiting for pending navigations...
+[1537349263.696][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.701][INFO]: Waiting for pending navigations...
+[1537349263.702][INFO]: Done waiting for pending navigations. Status: ok
+[1537349263.702][INFO]: RESPONSE GetElementText "Sign in"

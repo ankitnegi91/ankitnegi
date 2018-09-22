@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Launched]]>
+    </line>
+    <line>
+      <![CDATA[http://ankit4545:1234/login.dourl navigated]]>
+    </line>
+    <line>
+      <![CDATA[invalid login msg is verified]]>
+    </line>
+    <line>
+      <![CDATA[invalidLogin  script is pass ]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7280" started-at="2018-09-18T17:08:31Z" finished-at="2018-09-18T17:08:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7280" started-at="2018-09-18T17:08:31Z" finished-at="2018-09-18T17:08:38Z">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@76b0bfab]" name="setUp" is-config="true" duration-ms="5595" started-at="2018-09-18T17:08:31Z" finished-at="2018-09-18T17:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://ankit4545:1234/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched]]>
+            </line>
+            <line>
+              <![CDATA[http://ankit4545:1234/login.dourl navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@76b0bfab]" name="invalidLogin" duration-ms="1529" started-at="2018-09-18T17:08:37Z" finished-at="2018-09-18T17:08:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[invalid login msg is verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@76b0bfab]" name="tearDown" is-config="true" duration-ms="129" started-at="2018-09-18T17:08:38Z" finished-at="2018-09-18T17:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:2, instance:com.actitime.scripts.LoginTest@76b0bfab] output=invalid login msg is verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[invalidLogin  script is pass ]]>
+            </line>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
