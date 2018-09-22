@@ -20,7 +20,7 @@ public class LoginTest extends BaseLib
 		EnterTimeTrackPage ettp= new EnterTimeTrackPage(driver);
 		ettp.verifyLogo();
 		ettp.verifyHomePageTitle();
-		
+		//"jnj"
 		
 	}
 	
